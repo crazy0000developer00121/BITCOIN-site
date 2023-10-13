@@ -1,0 +1,62 @@
+.container{
+    margin:0 auto;
+    width: 1200px;
+}
+.header_holder{
+    width: 1160px;
+    height: 104px;
+    opacity: 0.7;
+    background: var(--0-a-0-a-0-a, #0A0A0A);
+    backdrop-filter: blur(25px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_left_a{
+    width: 170px;
+    min-height: 42px;
+    display: block;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.menu_parent {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.menu_parent li{
+    color: var(--939393, #939393);
+    font-family: Neue Machina;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.header_right{
+   display: flex; 
+
+}
+.header_right a{
+    display: block;
+}
+.header_right:first-child{
+    background-image: url(../images/Search.png);
+    width: 32px;
+    min-height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.header_right:last-child{
+    background-image: url(../images/Buy.png);
+    width: 32px;
+    min-height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
